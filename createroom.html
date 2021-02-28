@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>repl.it</title>
+	<link href="style.css" rel="stylesheet" type="text/css" />
+
+
+
+  <style type="text/css">
+html, 
+body {
+height: 100%;
+}
+
+body {
+//background-image: url(clouds.png);
+background-repeat: no-repeat;
+background-size: 100% 100%;
+}
+
+.bg-image {
+      /* The image used */
+      background-image: url("mts.jpg");
+
+      /* Add the blur effect */
+      //filter: blur(8px);
+      //-webkit-filter: blur(8px);
+
+      /* Full height */
+      height: 20%;
+
+  /* Center and scale the image nicely */
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+</style>
+</head>
+
+<body>
+	<script src="script.js">
+
+	</script>
+
+	<table style="border-collapse: collapse; width: 100%; height: 17px; " border="0">
+		<tr style="height: 17px;">
+				<td style="width: 1%; height: 17px;"><a href="index.html">
+						<img src="Logo.png" alt="" width = "90" length = "120"/></a></td>
+<td style="width: 99%; height: 17px; text-align: left;">
+<h1 style = "color: #004d99; font-size:45px"><strong>Medicam</strong></h1>
+</td>
+
+</tr>
+
+<tr>
+  <td colspan =2 class = "bg-image">
+<h3  style=" text-align: center; color: white"><span>     <br>           Want to create a new room for your patient? Do it here!<br><br> </span>
+</td>
+</tr>
+<tr>
+  <td colspan =2 align = "center" style= "background-color: #004d99">
+    <p>&nbsp;<p>
+<form style = "float: center; color: white" action="/page3.html"><label for="fname" >Room name:</label> <input id="fname" name="fname" type="text" /><br /><br />
+  <label for="fname" >Room passcode:</label> <input id="fname" name="fname" type="text" /><br /><br />
+
+  <label for="fname" >Re-enter room passcode:</label> <input id="fname" name="fname" type="text" /><br /><br />
+  <label for="fname" >Room description:</label> <input id="fname" name="fname" type="text" /><br /><br />
+
+  <input type="submit" value="Create room!" />
+
+  <p ><a STYLE = "COLOR: WHITE" href="CreateRoom.html">Want to join a room? Click here!</a></p>
+  <p>&nbsp;<p>
+    <p>&nbsp;<p>
+      <p>&nbsp;<p>
+        <p>&nbsp;<p>
+  </form>
+  </td>
+</tr>
+
+</table>
+</body>
+
+  <script>
+    function othername() {
+    var input = document.getElementById("userInput").value;
+    alert(input);
+}
+  </script>
+</html>
